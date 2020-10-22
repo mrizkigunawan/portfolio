@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gunawan's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" id="theme-style" href="">
+</head>
+<body>
+  <header>
+    <!-- navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-theme" id="nav">
+      <div class="container">
+        <!-- brand -->
+        <span class="navbar-brand font-weight-bold d-lg-none primary-color">G</span>
+        <!-- toggler -->
+        <button 
+          class="navbar-toggler border-0" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target="#navbarSupportedContent" 
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation"
+          style="outline: 0;"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>    
+        <div
+          class="collapse navbar-collapse"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mr-auto d-none d-lg-block">
+            <li class="nav-item">
+              <span class="navbar-brand font-weight-bold primary-color">G</span>
+            </li>
+          </ul>
+          <!-- nav links -->
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item py-2 py-lg-0 px-0 px-lg-3 text-uppercase font-weight-bold">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item py-2 py-lg-0 px-0 px-lg-3 text-uppercase font-weight-bold">
+              <a class="nav-link" href="#aboutme">About Me</a>
+            </li>
+            <li class="nav-item py-2 py-lg-0 px-0 px-lg-3 text-uppercase font-weight-bold">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item py-2 py-lg-0 px-0 px-lg-3 text-uppercase font-weight-bold">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item py-2 py-lg-0 px-0 px-lg-3 text-uppercase font-weight-bold">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <!-- theme button -->
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <span class="navbar-brand">
+                <i class="fas fa-fw fa-sun" id="toggle-button" data-mode="light" style="cursor: pointer;" ></i>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- home section -->
+    <section id="home" class="my-5">
+      <div class="container d-flex flex-column align-items-center">
+        <img src="./images/gunawan.jpg" alt="Profile Image" class="img-rounded my-4">
+        <!-- name -->
+        <div class="name-with-highlight py-4">
+          <div class="highlight highlight-blue"></div>
+          <h2 class="text-uppercase font-weight-bold primary-color name">hi, i'm rizki gunawan</h2>
+        </div>
+        <p class="text-center primary-color mb-4 description">Halo, saya adalah seorang desainer dan pengembang sisi front-end website pemula. Umur saya 21 tahun dan saya adalah mahasiswa Sistem Informasi.</p>
+        <a href="#" class="text-uppercase button-download text-dark">download cv</a>
+      </div>
+    </section>
+
+    <!-- about me section -->
+    <section id="aboutme" class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-6 my-3 pr-lg-5" data-aos="fade-up">
+            <div class="row">
+              <div class="col-sm-2 primary-color text-center">
+                <i class="fas fa-fw fa-2x fa-school pt-1 blue-color d-none d-sm-block"></i>
+                <i class="fas fa-fw fa-4x fa-school py-4 blue-color d-sm-none"></i>
+              </div>
+              <div class="d-none d-sm-block col-sm-10 text-justify primary-color ml-sm-n4">
+                Lulusan SMK TI Bali Global Denpasar Jurusan Multimedia dan saat ini sedang menempuh pendidikan sarjana jurusan Sistem Informasi pada ITB STIKOM Bali
+              </div>
+              <div class="d-sm-none col-sm-10 text-center primary-color">
+                Lulusan SMK TI Bali Global Denpasar Jurusan Multimedia dan saat ini sedang menempuh pendidikan sarjana jurusan Sistem Informasi pada ITB STIKOM Bali
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-3 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
+            <div class="row">
+              <div class="col-sm-2 primary-color text-center">
+                <i class="fas fa-fw fa-2x fa-users pt-1 pink-color d-none d-sm-block"></i>
+                <i class="fas fa-fw fa-4x fa-users py-4 pink-color d-sm-none"></i>
+              </div>
+              <div class="d-none d-sm-block col-sm-10 text-justify primary-color ml-sm-n4">
+                Saya aktif dalam kegiatan organisasi di kampus, beberapa kali menjadi panitia inti dan pernah menjadi seorang ketua panitia dan saya mampu bekerja dalam sebuah tim
+              </div>
+              <div class="d-sm-none col-sm-10 text-center primary-color">
+                Saya aktif dalam kegiatan organisasi di kampus, beberapa kali menjadi panitia inti dan pernah menjadi seorang ketua panitia dan saya mampu bekerja dalam sebuah tim
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-3 pr-lg-5" data-aos="fade-up" data-aos-delay="400">
+            <div class="row">
+              <div class="col-sm-2 primary-color text-center">
+                <i class="fas fa-fw fa-2x fa-smile-wink pt-1 yellow-color d-none d-sm-block"></i>
+                <i class="fas fa-fw fa-4x fa-smile-wink py-4 yellow-color d-sm-none"></i>
+              </div>
+              <div class="d-none d-sm-block col-sm-10 text-justify primary-color ml-sm-n4">
+                Saya adalah seorang yang ambivert, saya senang bertemu orang baru dan terkadang saya suka menyendiri untuk berpikir dan merencanakan tentang sesuatu
+              </div>
+              <div class="d-sm-none col-sm-10 text-center primary-color">
+                Saya adalah seorang yang ambivert, saya senang bertemu orang baru dan terkadang saya suka menyendiri untuk berpikir dan merencanakan tentang sesuatu
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 my-3 pl-lg-5" data-aos="fade-up" data-aos-delay="600">
+            <div class="row">
+              <div class="col-sm-2 primary-color text-center">
+                <i class="fas fa-fw fa-2x fa-puzzle-piece pt-1 green-color d-none d-sm-block"></i>
+                <i class="fas fa-fw fa-4x fa-puzzle-piece py-4 green-color d-sm-none"></i>
+              </div>
+              <div class="d-none d-sm-block col-sm-10 text-justify primary-color ml-sm-n4">
+                Hobi saya adalah coding, mendesain, bermain bulutangkis dan mempelajari hal baru
+              </div>
+              <div class="d-sm-none col-sm-10 text-center primary-color">
+                Hobi saya adalah coding, mendesain, bermain bulutangkis dan mempelajari hal baru
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- skills section -->
+    <section id="skills" class="my-5">
+      <div class="container">
+        <!-- section title -->
+        <div class="title-with-highlight py-4">
+          <div class="highlight highlight-green"></div>
+          <h3 class="font-weight-bold primary-color">Teknologi Yang Digunakan</h3>
+        </div>
+        <div class="row my-sm-0">
+          <!-- front-end -->
+          <div class="col-sm-12 my-5">
+            <div class="row align-items-center">
+              <div class="col-md-7" data-aos="fade-right">
+                <h5 class="primary-color">Front-end</h5>
+                <p class="p-0 pr-md-5 primary-color">Pengembangan sisi front-end website adalah hal yang saya gemari. Dengan memanfaatkan teknologi-teknologi terbaru dan populer membuat pengembangan sisi front-end website lebih mudah. SASS dan Framework Bootstrap memudahkan saya dalam styling tampilan website, serta Library React.js memudahkan saya dalam membangun user interface</p>
+              </div>
+              <div class="col-md-5 px-5" data-aos="fade-left">
+                <div class="row">
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/html5.png" alt="HTML5" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/css.png" alt="CSS3" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/js.png" alt="JavaScript" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/bootstrap.png" alt="Bootstrap" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/sass.png" alt="SASS" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/react.png" alt="Reactjs" class="w-100 p-4 p-sm-1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- back-end -->
+          <div class="col-sm-12 my-5">
+            <div class="row align-items-center">
+              <div class="col-md-5 order-2 order-md-1 px-5" data-aos="fade-right">
+                <div class="row">
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/nodejs.png" alt="Nodejs" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/expressjs.png" alt="Expressjs" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/php.png" alt="PHP" class="w-100 p-4 p-sm-1">
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 order-1 order-md-2" data-aos="fade-left">
+                <h5 class="p-0 pl-md-5 primary-color">Back-end</h5>
+                <p class="p-0 pl-md-5 primary-color">Pengembangan sisi back-end website adalah hal yang saya mulai pelajari. Saya mampu menggunakan PHP dengan Framework CodeIgniter dalam pengembangan sisi back-end dan kini saya sedang mendalami teknologi yang saat ini populer yaitu node.js dengan express.js dalam pengembangan sisi back-end website</p>
+              </div>
+            </div>
+          </div>
+          <!-- UI/UX & Graphic Design -->
+          <div class="col-sm-12 my-5">
+            <div class="row align-items-center">
+              <div class="col-md-7" data-aos="fade-right">
+                <h5 class="primary-color">UI/UX & Graphic Design</h5>
+                <p class="p-0 pr-md-5 primary-color">Desain grafis dengan coreldraw merupakan hal yang saya gemari sejak saya di Sekolah Menengah Kejuruan, begitu pula dengan manipulasi foto menggunakan photoshop. saat ini saya sedang mendalami ilmu dalam membangun user interface dan user experience menggunakan Adobe XD</p>
+              </div>
+              <div class="col-md-5 px-5" data-aos="fade-left">
+                <div class="row">
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/xd.png" alt="Adobe XD" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/cdr.png" alt="CorelDRAW" class="w-100 p-4 p-sm-1">
+                  </div>
+                  <div class="col-4 p-1 p-sm-3">
+                    <img src="./images/psd.png" alt="Adobe Photoshop" class="w-100 p-4 p-sm-1">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="skew-shape skew-shape-pink skew-shape-skills-1"></div>
+      <div class="skew-shape skew-shape-yellow skew-shape-skills-2"></div>
+      <div class="skew-shape skew-shape-blue skew-shape-skills-3"></div>
+      <div class="skew-shape skew-shape-green skew-shape-skills-4"></div>
+    </section>
+
+    <section id="projects" class="my-5">
+      <div class="container">
+        <!-- section title -->
+        <div class="title-with-highlight py-4">
+          <div class="highlight highlight-yellow"></div>
+          <h3 class="font-weight-bold primary-color">Projects</h3>
+        </div>
+        <div class="row align-items-end text-center">
+          <div class="col-sm-12 col-lg-4 my-5" data-aos="zoom-in-up">
+            <img src="./images/POSTER.png" alt="Infographic Poster" class="w-75 shadow">
+            <h5 class="pt-5 primary-color">Infographic Poster</h5>
+          </div>
+          <div 
+            class="col-sm-12 col-lg-4 my-5 text-center" data-aos="zoom-in-up">
+            <img src="./images/SBC7_1.png" alt="Competition Logo" class="w-75">
+            <h5 class="pt-5 primary-color">Competition Logo</h5>
+          </div>
+          <div class="col-sm-12 col-lg-4 my-5 text-center" data-aos="zoom-in-up">
+            <img src="./images/sbc-poster-a3.jpg" alt="Competition Poster" class="w-75 shadow">
+            <h5 class="pt-5 primary-color">Competition Poster</h5>
+          </div>
+          <div class="col-sm-12 my-5 text-center img-wrapper" data-aos="zoom-in-up" data-aos-delay="300">
+            <img src="./images/simon.png" alt="SIMON" class="w-50 shadow img-center">
+            <img src="./images/simon2.png" alt="SIMON" class="w-50 shadow ml-3  img-left">
+            <img src="./images/simon3.png" alt="SIMON" class="w-50 shadow mr-3 img-right">
+            <h5 class="pt-5 mt-4 primary-color">React Monitoring System with Argon React Dashboard Template</h5>
+            <p class="primary-color">React Monitoring System adalah sistem informasi pengawasan dan pencatatan jurnal kegiatan mahasiswa peserta skema workshop online yang dikembangkan menggunakan teknologi Library React.js, Framework Bootstrap, Argon React Dashboard Admin Template untuk front-end dan memanfaatkan Google Firebase untuk back-end serta menggunakan Cloud Firestore sebagai database. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contatc section -->
+    <section id="contact" class="mt-5">
+      <div class="container">
+        <!-- section title -->
+        <div class="title-with-highlight py-4">
+          <div class="highlight highlight-pink"></div>
+          <h3 class="font-weight-bold primary-color">Contact</h3>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-lg-6 mt-4 mb-lg-n5">
+            <form id="form-contact" class="needs-validation" novalidate>
+              <div class="form-group">
+                <label for="name" class="primary-color">Name</label>
+                <input type="text" name="name" id="name" class="form-control" placeholder="Enter Full Name" required>
+                <div class="invalid-feedback">
+                  Please enter your name
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="subject" class="primary-color">Subject</label>
+                <input type="text" name="subject" id="subject" class="form-control" placeholder="Enter Email Subject" required>
+                <div class="invalid-feedback">
+                  Please enter a subject
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email" class="primary-color">E-mail</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Enter Valid E-mail" required>
+                <div class="invalid-feedback">
+                  Please enter your email
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message" class="primary-color">Message</label>
+                <textarea name="message" id="message" class="form-control" placeholder="Enter Message" required></textarea>
+                <div class="invalid-feedback">
+                  Please enter your message
+                </div>
+              </div>
+              <button class="text-uppercase button-submit font-weight-bold text-dark">send</button>
+            </form>
+          </div>
+          <div class="col-sm-12 col-lg-6 mt-4 mb-lg-n5 text-right">
+            <h5 class="primary-color mb-3">Find me on</h5>
+            <a href="https://twitter.com/this_isnt_gun" target="_blank">
+              <i class="fab fa-fw fa-2x px-3 fa-twitter primary-color"></i>
+            </a>
+            <a href="https://www.instagram.com/rizkiguna" target="_blank">
+              <i class="fab fa-fw fa-2x px-3 fa-instagram primary-color"></i>
+            </a>
+            <a href="https://www.dribble.com" target="_blank">
+              <i class="fab fa-fw fa-2x px-3 fa-dribbble primary-color"></i>
+            </a>
+            <a href="https://github.com/mrizkigunawan" target="_blank">
+              <i class="fab fa-fw fa-2x px-3 fa-github primary-color"></i>
+            </a>
+            <a href="https://www.linkedin.com" target="_blank">
+              <i class="fab fa-fw fa-2x px-3 fa-linkedin-in primary-color"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>Built with <i class="fas fa-heart text-danger"></i> by Gun</span>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#00cba9" fill-opacity="1" d="M0,128L120,117.3C240,107,480,85,720,117.3C960,149,1200,235,1320,277.3L1440,320L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="./js/script.js"></script>
+  <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
+  <script>
+    AOS.init({
+      offset: 250,
+      duration: 500
+    });
+  </script>
+</body>
+</html>
