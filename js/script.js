@@ -1,4 +1,3 @@
-// tangkap toggle theme button
 const btn = document.getElementById('toggle-button')
 const nav = document.getElementById('nav')
 let fontsColor = localStorage.getItem('fonts')
@@ -9,7 +8,6 @@ if (fontsColor == null) {
   setTheme(fontsColor)
 }
 
-// cek kondisi
 btn.addEventListener('click', function () {
   setTheme(this.dataset.mode)
 })
