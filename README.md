@@ -2,6 +2,8 @@
 
 ![Twitter Follow](https://img.shields.io/twitter/follow/this_isnt_gun?style=social)
 
+### 👉 [Visit My Portfolio](https://gunawan-portfolio.netlify.app/)
+
 ### ✨ Created using these technologies
 
 [<img src="https://raw.githubusercontent.com/mrizkigunawan/portfolio/master/images/html5.png" width="70" height="70" />](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih1LPkoMjsAhXx7XMBHZD6Co8QFjABegQIAhAC&url=https%3A%2F%2Fdeveloper.mozilla.org%2Fen-US%2Fdocs%2FWeb%2FGuide%2FHTML%2FHTML5&usg=AOvVaw0oj8KCg9vn47JMwdL5XaaC)
