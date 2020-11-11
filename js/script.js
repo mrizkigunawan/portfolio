@@ -27,3 +27,10 @@ function setTheme (mode) {
 
   localStorage.setItem('fonts', mode)
 }
+
+const links = document.querySelectorAll('.nav-link')
+links.forEach(function(link) {
+  link.addEventListener('click', function(e) {
+    document.getElementById('navbarSupportedContent').classList.remove('show');
+  })
+})
